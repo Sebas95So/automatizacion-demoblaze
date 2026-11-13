@@ -62,7 +62,7 @@ test('TC01 - Agregar dos productos al carrito', async ({ page }) => {
 });
 
 //Test Case 02
-test('TC02 - Verificar prodcutos y el total del carrito', async ({ page }) => {
+test('TC02 - Verificar productos y el total del carrito', async ({ page }) => {
   const homePage = new HomePage(page);
   const productPage = new ProductPage(page);
 
